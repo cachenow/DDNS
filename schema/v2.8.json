@@ -1,17 +1,17 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema",
-  "$id": "https://ddns.newfuture.cc/schema/v2.8.json",
+  "$id": "https://raw.githubusercontent.com/cachenow/DDNS/master/schema/v2.8.json",
   "description": "DNS 配置文件 https://github.com/NewFuture/DDNS",
   "type": "object",
   "properties": {
     "$schema": {
       "type": "string",
-      "title": "please use https://ddns.newfuture.cc/schema/v2.8.json",
-      "description": "请更换为 https://ddns.newfuture.cc/schema/v2.8.json",
-      "default": "https://ddns.newfuture.cc/schema/v2.8.json",
+      "title": "please use https://raw.githubusercontent.com/cachenow/DDNS/master/schema/v2.8.json",
+      "description": "请更换为 https://raw.githubusercontent.com/cachenow/DDNS/master/schema/v2.8.json",
+      "default": "https://raw.githubusercontent.com/cachenow/DDNS/master/schema/v2.8.json",
       "enum": [
-        "https://ddns.newfuture.cc/schema/v2.8.json",
-        "http://ddns.newfuture.cc/schema/v2.8.json",
+        "https://raw.githubusercontent.com/cachenow/DDNS/master/schema/v2.8.json",
+        "http://raw.githubusercontent.com/cachenow/DDNS/master/schema/v2.8.json",
         "./schema/v2.8.json"
       ]
     },
